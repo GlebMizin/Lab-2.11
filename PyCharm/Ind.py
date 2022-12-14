@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 def func_1(type='max'):
+    
     def func_2(b):
         if type == 'max':
             return max(b)
