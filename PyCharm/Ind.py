@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-def func_1(type='max'):
+def func_1(type_1='max'):
     
     def func_2(b):
-        if type == 'max':
+        if type_1 == 'max':
             return max(b)
         else:
             return min(b)
